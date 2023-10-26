@@ -4,7 +4,7 @@ import fetchGreeting from '../redux/thunk';
 
 function Greeting() {
   const { greeting: message, isLoading } = useSelector(
-    (store) => store.greeting
+    (store) => store.greeting,
   );
   const dispatch = useDispatch();
 
